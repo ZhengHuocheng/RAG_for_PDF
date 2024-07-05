@@ -4,4 +4,6 @@ RAG_for_PDF能够适用于一系列的PDF文档的查询，并可自行接入外
 1、检索：基于语义搜索搭建Retrieveal system    
 2、增强：利用检索到的chunks格式化增强Prompt    
 3、生成：接入本地Ollama(QWen:7b)模型，实现带有Meta Source的问答    
-4、评估：基于references对llm回答进行RAG评估，包括BLEU、Bias、Diversity、Perplexity、ROUGE-1得分
+4、评估：基于references对llm回答进行RAG评估，包括BLEU、Bias、Diversity、Perplexity、ROUGE-1得分    
+## RAG工作流程如下：    
+![work_flow]("https://github.com/ZhengHuocheng/RAG_for_PDF/blob/main/rag_flow.png")
